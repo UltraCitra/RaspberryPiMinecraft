@@ -7,9 +7,9 @@
 # curl https://raw.githubusercontent.com/TheRemote/RaspberryPiMinecraft/master/SetupMinecraft.sh | bash
 
 # Minecraft server version
-Version="1.21.4"
+Version="1.21.5"
 # Set to AllowLocalCopy="1" if you make changes to the script otherwise any changes will be discarded and the latest online version will run
-AllowLocalCopy="0"
+AllowLocalCopy="1"
 
 # Custom Directory
 # You can change this to a custom directory -- it is meant to be the root directory that contains everything (not including the "minecraft" folder part)
