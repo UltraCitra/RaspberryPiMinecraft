@@ -3,7 +3,7 @@ For the full article and guide visit https://jamesachambers.com/raspberry-pi-min
 
 <h2>Installation Instructions</h2>
 To get started / install the server type:<br>
-<pre>curl https://raw.githubusercontent.com/TheRemote/RaspberryPiMinecraft/master/SetupMinecraft.sh | bash</pre><br>
+<pre>curl https://raw.githubusercontent.com/UltraCitra/RaspberryPiMinecraft/master/SetupMinecraft.sh | bash</pre><br>
 
 <h2>Getting Help</h2>
 To get help you may open an issue here or visit my web site at https://jamesachambers.com/raspberry-pi-minecraft-server-script-with-startup-service/ which contains lots of comments from myself and users helping each other out!
