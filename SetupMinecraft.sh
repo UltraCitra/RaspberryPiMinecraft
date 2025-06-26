@@ -9,7 +9,7 @@
 # Minecraft server version
 Version="1.21.6"
 # Set to AllowLocalCopy="1" if you make changes to the script otherwise any changes will be discarded and the latest online version will run
-AllowLocalCopy="1"
+AllowLocalCopy="0"
 
 # Custom Directory
 # You can change this to a custom directory -- it is meant to be the root directory that contains everything (not including the "minecraft" folder part)
@@ -279,7 +279,7 @@ cd "$DirName"
 if [[ -e "SetupMinecraft.sh" && "$AllowLocalCopy" -ne "1" ]]; then
   rm -f "SetupMinecraft.sh"
   echo "Local copy of SetupMinecraft.sh running.  Exiting and running online version.  To override set AllowLocalCopy=\"1\" at the top of the script."
-  curl https://raw.githubusercontent.com/TheRemote/RaspberryPiMinecraft/master/SetupMinecraft.sh | bash
+  curl https://raw.githubusercontent.com/UltraCitra/RaspberryPiMinecraft/master/SetupMinecraft.sh | bash
   exit 1
 fi
 
